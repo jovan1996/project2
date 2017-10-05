@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<itemi>
+	<item>
+		<name>protein</name>
+		<price>30</price>
+		<category>protein</category>
+		<type>1</type>
+	</item>
+	<item>
+		<name>kreatin</name>
+		<price>20</price>
+		<category>kreatin</category>
+		<type>2</type>
+	</item>
+	<item>
+		<name>bcaa</name>
+		<price>40</price>
+		<category>kreatin</category>
+		<type>3</type>
+	</item>
+</itemi>

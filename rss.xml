@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Početna strana</title>
+			<description>Naša početna stranica</description>
+			<link>http://project2.jovansomborski.com/index.html</link>
+		</item>
+		<item>
+			<title>Suplementi</title>
+			<description>Ovde možete videti suplemente</description>
+			<link>http://project2.jovansomborski.com/suplementi.html</link>
+		</item>
+		<item>
+			<title>Hrana</title>
+			<description>Mesto na kojem možete saznati o zdravom život</description>
+			<link>http://project2.jovansomborski.com/hrana.html</link>
+		</item>
+		<item>
+			<title>Trening</title>
+			<description>Naučimo kako da treniramo</description>
+			<link>http://project2.jovansomborski.com/trening.html</link>
+		</item>
+		<item>
+			<title>Autor</title>
+			<description>O autoru</description>
+			<link>http://project2.jovansomborski.com/autor.html</link>
+		</item>
+		<item>
+			<title>Registracija</title>
+			<description>Registracija, dobrodošli</description>
+			<link>http://project2.jovansomborski.com/registration.html</link>
+		</item>
+	</channel>
+
+</rss>

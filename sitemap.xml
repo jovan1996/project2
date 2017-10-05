@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?> 
+<urlset>
+
+<url>
+  <loc>http://jovansomborski.com/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+</urlset>

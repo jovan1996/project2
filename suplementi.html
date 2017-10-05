@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<meta charset="utf-8">
+	<meta name='blogcatalog'>
+	<meta name="description" content="suplementi, protein, kreatin, bcaa">
+	<meta name="author" content="Jovan Somborski,jovan.somborski28@gmail.com">
+	<title>Suplementi</title>
+	<meta name="keywords" content="zdrav život, san, trening, ishrana">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" href="img/ikon.ico"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+	<section>
+		<a href="index.html"><h1>ZDRAV ŽIVOT</h1></a>
+	</section>
+	
+	
+</header>
+
+ <nav>
+        <ul class="meni">
+            <li><a href="index.html">POČETNA</a></li>
+            <li class="dropdown"><a href="javascript:void(0)">SUPLEMENTACIJA <i class="fa fa-angle-double-down"></i></a>
+                <ul class="sub-nav">
+                    <li><a href="suplementi.html">PROTEIN</a></li>
+                    <li><a href="suplementi.html">KREATIN </a></li>
+                    <li><a href="suplementi.html">BCAA </a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="javascript:void(0)">TRENING <i class="fa fa-angle-double-down"></i></a>
+                <ul class="sub-nav">
+                    <li><a href="trening.html#teretana">TERETANA</a></li>
+                    <li><a href="trening.html#crosfit">KROSFIT </a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">AUTOR</a></li>
+        </ul>
+    </nav>
+
+	<main id="suplementiMain">
+	<section id="sliderCart">
+	    <section id="elementi"></section>
+        <section id="cena">
+         <article id="ukupnaCena"></article>
+        </section>
+	</section>
+		<section id="cart">
+        <i class="fa fa-4x fa-shopping-cart" aria-hidden="true"></i>
+        <article id="brojitema"></article>
+    </section>
+	<section class="ajax">
+		<input type="text" class="search" id="search" placeholder="search for supplements" onkeyup="search();">
+		
+	</section>
+
+	<section class="item">
+		<article id="items">
+		<a target="_blanc" href="img/protein.jpg"><img class="itemimg"  src="img/protein.jpg"></a>
+		<h3 class="itemnaslov">Protein</h3>
+		<h3 class="itemprice">€ 30.00</h3>
+		<input type="button" id="buy" class="addtocart" value="Add To Cart" name="Protein" price="30.00">
+		</article>
+<article id="items">
+		<a target="_blanc" href="img/kreatin.jpg"><img class="itemimg" src="img/kreatin.jpg"></a>
+		<h3 class="itemnaslov">Kreatin</h3>
+		<h3 class="itemprice">€ 20.00</h3>
+		<input type="button" id="buy" class="addtocart" value="Add To Cart" name="Kreatin" price="20.00">
+		</article>
+		<article id="items">
+		<a target="_blanc" href="img/bcaa.jpg"><img class="itemimg" src="img/bcaa.jpg"></a>
+		<h3 class="itemnaslov">BCAA</h3>
+		<h3 class="itemprice">€ 40.00</h3>
+		<input type="button" id="buy" class="addtocart" value="Add To Cart" name="BCAA" price="40.00">
+		</article>
+		</section>
+	
+	</main>
+
+<footer>
+
+	<section class="socialNetworks" align="center">
+		<a target="_blanc" href="https://www.facebook.com/click.function.animate"><i class="fa fa-4x fa-facebook"></i></a>
+		<a target="_blanc" href="https://rs.linkedin.com/in/jovan-somborski-466627130"><i class="fa fa-4x fa-linkedin"></i></a>
+		<a target="_blanc" href="https://twitter.com/jovan_somborski"><i class="fa fa-4x fa-twitter"></i></a>
+		<a target="_blanc" href="rss.xml"><i class="fa fa-4x fa-rss"></i></a>
+		<a target="_blanc" href="sitemap.xml"><i class="fa fa-4x fa-sitemap"></i></a>
+		<a target="_blanc" href="dokumentacija.pdf"><i class="fa fa-4x fa-file" aria-hidden="true"></i></a>
+	</section>
+
+	<section class="copyright">
+			<p>Jovan Somborski &copy; 2016	ZDRAV ŽIVOT</p>
+	</section>
+
+</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+
+
+<script src="style/jscript1.js" type="text/JavaScript"></script>
+<script src="style/suplementi.js" type="text/JavaScript"></script>
+</body>
+</html>

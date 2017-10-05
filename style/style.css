@@ -1,0 +1,455 @@
+
+body{
+	background-color:rgb(163, 191, 214);
+	margin:0px auto;
+	font-family: 'Maitree', serif;
+}
+a{
+	text-decoration: none;
+	width:100px;
+}
+header{
+
+	background-color:rgb(123, 159, 187);
+	width:100%;
+	height:210px;
+}
+header h1{
+	margin-top:30px;
+	margin-left:30px;
+	color:rgb(255, 255, 255);
+	font-size:70px;
+}
+
+header section h1{
+	float:left;
+}
+header section form{
+	float:right;
+}
+header section form table{
+	margin:20px 5% 0px 0px;
+	color:#2d4557;
+}
+header section form table input[type="text"],
+header section form table input[type="password"]
+{	
+	 border:none;
+	font-weight: bold;
+	border-radius:20px;
+}
+header section form table input[type="button"]
+{	
+	cursor:pointer;
+    background-color: #7b9ab1;
+    border:none;
+    color:white;
+    padding:10px 16px;
+    text-align:center;
+    font-size:16px;
+	border-radius:10px;
+}
+header section form table th{
+	width:400px;
+}
+header section form table p{
+	color:#fff;
+	text-align:left;
+}
+header section form table a{
+	color:black;
+	font-style:italic;
+}
+header section form table tr{
+	height: 25px;
+}
+header section form table label{
+	font-size:16px;
+	font-weight: bold;
+	color:rgb(255, 255, 255);
+}
+
+									/*END OF HEADER*/
+
+nav{
+	z-index:2;
+	height:25px;
+	width:100%;
+	background-color:rgb(173, 220, 241);	
+}
+nav ul{
+	margin:0px auto;
+	list-style:none;
+}
+nav ul li{
+	text-align:center;
+    position:relative;
+	float:left;
+	width:25%;
+}
+nav ul li:hover{
+	background-color:rgb(255,255,255);
+}
+nav ul li a{
+	
+	width: 25%;
+	text-decoration:none;
+	color:rgb(80, 123, 128);
+}
+nav ul li a:link{
+	color:rgb(8, 91, 101);
+}
+
+nav li.dropdown ul.sub-nav li{	
+	display: block;
+	
+	width: 100%;
+
+}
+nav ul li.dropdown ul.sub-nav{
+	padding-right:50px;
+	margin-top:-4px;
+}
+
+
+nav ul li.dropdown ul.sub-nav li a{
+	font-size: 18px;
+	width:15%;
+}
+
+ul.sub-nav{
+	display: none;
+	
+}
+nav ul li.dropdown ul.sub-nav li:hover{
+background-color:rgb(173, 220, 241);
+}
+										/*END OF NAVIGATION*/
+#mainHome{ 
+	position:relative;
+	z-index:1;
+	margin-top:90px;
+	height: 900px;
+	width:100%;	
+}
+#mainHome section{
+	text-align:center;
+	float:left;
+	display:inline;
+	width:33.33%;
+	height: 900px;
+}
+
+#mainHome img{
+	width:400px;
+	height:300px;
+}
+article.text{
+	text-align:justify;
+	margin:10px 20px;
+}
+											
+
+footer{
+	text-align:center;
+	background-color: rgb(123, 159, 187);
+	height:200px;
+	width:100%;
+}
+footer section.socialNetworks{
+	width:600px;
+	height:100px;
+	margin:0px auto;
+}
+footer section i{
+	padding:20px;
+}
+footer section.copyright{
+	text-align:center;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-rss, .fa-sitemap, .fa-file, .fa-shopping-cart {
+
+	color:white;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-rss:hover, .fa-file:hover, .fa-sitemap:hover ,.fa-shopping-cart:hover{
+color:black;
+}	
+										/*END OF FOOTER*/
+										
+
+										/*AUTOR*/
+
+#autor{
+	margin-top:90px;
+	text-align:center;
+	width:100%;
+	height:900px;
+}
+.autor{
+	margin:0px auto;
+	width:550px;
+}
+.autor p{
+	font-size:20px;
+}
+.omeni{
+	text-align:justify;
+}
+										/*REGISTRATION*/
+
+#registracija{
+	margin-bottom:60px;
+	text-align:center;
+	width:100%;
+	height:auto;
+}
+#registracija form{
+	margin:0px auto;
+	width:400px;
+	height:auto;
+}
+#registracija form table{
+	width:500px;
+}
+#registracija form table td label{
+	color:#4c1d1d;
+	font-weight:bold;
+	border-bottom:3px solid #ccc;
+	font-size:18px;
+	width:150px;
+	
+}
+#registracija form table td input{
+	float:left;
+	border-radius:10px;
+	border:none;
+	background-color:rgb(57, 61, 64);
+	color:white;
+	height:25px;
+	width:300px;
+	border:none;
+	font-size:28px;
+}
+#registracija form table td {
+	padding:5px 0px;
+}
+#registracija form table td:first-child {
+	width:300px;
+}
+#registracija form table td input[type="button"]{
+	width:100px;
+	height:60px;
+	cursor:pointer;
+}
+#registracija form table td input[type="radio"]{
+	background-color:inherit;
+	cursor:pointer;
+}
+#registracija form table td input[type="reset"]{
+	background-color:rgb(57, 61, 64);
+	width:100px;
+	height:60px;
+	cursor:pointer;
+	margin-left:20px;
+}
+#registracija form table td{
+	height:25px;
+}
+.fa-asterisk{
+	cursor:default;
+	color:rgb(57, 61, 64);
+}
+#registracija form table th{
+	height:40px;
+}
+#registracija form table th h3{
+	font-size:35px;
+}
+
+.red{
+	color:red;
+}
+.unred{
+	color:rgb(57, 61, 64);
+}
+
+								/*SUPLEMENTI*/
+#suplementiMain{
+	margin-top:90px;
+	margin-bottom:50px;
+	height:auto;
+	width:100%;
+	text-align:center;
+}
+.ajax{
+	width:100%;
+	height:30px;
+}
+.search{
+	font-size:15px;
+	padding:10px 15px;
+	width:300px;
+	height:30px;
+	border:none;
+	border-radius:25px;
+}
+.search:focus{
+	width:500px;
+	transition:width 700ms ease-out;
+}
+
+#suplementiMain {
+	margin:90px 0px 0px 0px;
+    width: 100%;
+    height:auto;
+}
+										/*SUPLEMENTI*/
+.item{
+	width:100%;
+    height: 900px;
+    margin:80px 0px;
+   }
+ #items {
+    width: 185px;
+    height: 270px;
+    float: left;
+    margin: 10px;
+ }
+ .itemimg {
+    width: 140px;
+    height: 150px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.itemnaslov {
+    width: 180px;
+    height: 20px;
+    color: black;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+ }
+ .itemprice {
+    width: 200px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    margin-top: -15px;
+    float: left;
+}
+.addtocart {
+    height: 30px;
+    margin-left: 50px;
+    background-color: #0098CC;
+    color: white;
+    border: 2px solid #0099CC;
+}
+
+#cart {
+	position:fixed;
+   	right:45px;
+   	top:25px;
+    cursor: pointer;
+}
+#brojitema {
+    width: 15px;
+    height:20px;
+    padding-left: 6px;
+    float: right;
+    color: white;
+    border-radius: 100%;
+    font-size: 15px;
+}
+
+
+.listaItema{
+	padding:10px 5px;
+	width:250px;
+	height:30px;
+	color:white;
+	background-color:rgb(100, 120, 130);
+}
+#cena {
+    width: 290px;
+    height: 29px;
+    position: absolute;
+  
+  }
+ #sliderCart
+ {
+ 	position:fixed;
+	top:30px;
+	right:165px;
+	width:250px;
+	height:150px;
+	padding:10px;
+	z-index:5;
+  }
+  #ukupnaCena{
+  	padding:10px;
+  	height:30px;
+  	float:right;
+  }
+#elementi{
+	height:300px;
+ 	overflow-y: scroll;
+ 	overflow-x: hidden;
+	display:none;
+}
+
+
+
+												/*TRENING*/
+#trening{
+	height:1050px;
+	width:100%;
+	
+}
+.stotka{
+	width:100%;
+}
+#teretana{
+	margin-top:90px;
+	width:100%;
+	height:500px;
+}
+.teretanaslider{
+	margin:0px auto;
+	height:300px;
+	width:500px;
+}
+.teretanaslider img{
+	display:none;
+	position:absolute;
+	height:300px;
+	width:700px;
+}
+.teretana1{
+	text-align:center;
+	width:33%;
+	float:right;
+}
+
+#crosfit{
+	width:100%;
+	height:500px;
+}
+.crosfitslider{
+	margin:0px auto;
+	height:300px;
+	width:500px;
+	
+}
+.crosfitslider img{
+	display:none;
+	position:absolute;
+	height:300px;
+	width:700px;
+}
+.crosfit1{
+	text-align:center;
+	width:33%;
+	float:right;
+}
